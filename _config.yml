@@ -22,7 +22,7 @@ subtitle                 : Checking the subtitle
 name                     : "Amogh Hiremath"
 description              : "An amazing website. Yeah Right"
 url                      : https://amogh3892.github.io/
-baseurl                  : # "/work"
+baseurl                  : "/"
 repository               : amogh3892/amogh3892.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Amogh Hiremath"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I truely am an amazing person"
   location         : "Somewhere"
   email            :
   links:
