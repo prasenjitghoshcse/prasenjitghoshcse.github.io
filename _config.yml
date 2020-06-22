@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Amogh Hiremath"
+title                    : "Personal Homepage"
 title_separator          : "-"
 subtitle                 : ""
 name                     : "Amogh Hiremath"
-description              : "An amazing website. Yeah Right"
+description              : #""
 url                      : https://amogh3892.github.io/
 baseurl                  : ""
 repository               : amogh3892/amogh3892.github.io
-teaser                   : "/assets/images/Amogh.jpg"
-logo                     : "/assets/images/Amogh.jpg"
+teaser                   : #""
+logo                     : #""
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -107,13 +107,13 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/amogh3892"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/amogh.hiremath.1/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/amogh3892"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
