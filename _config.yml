@@ -116,8 +116,10 @@ author:
       url: "https://github.com/amogh3892"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
+      url: "https://www.instagram.com/a_m.o.g_h/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/amogh3892/"
 # Site Footer
 footer:
   links:
