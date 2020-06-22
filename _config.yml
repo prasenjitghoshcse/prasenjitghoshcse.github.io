@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Amogh Hiremath"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profilepic.jpg"
   bio              : "Graduate Research Assistant (Biomedical Engineering, Case Western Reserve University)"
   location         : "Cleveland, Ohio"
   email            :
