@@ -50,7 +50,7 @@
         <ul>
           <li class="active"><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Research</a></li>
+          <li><a href="#services">Projects</a></li>
           <li><a href="#resume">Publications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -532,7 +532,7 @@ America (RSNA), Chicago, U.S.A, November 29 - December 4, 2019</li>
     <div class="container">
 
       <div class="section-title">
-        <h2>Research</h2>
+        <h2>Projects</h2>
         <!-- <p>My Services</p> -->
       </div>
 
@@ -547,10 +547,10 @@ America (RSNA), Chicago, U.S.A, November 29 - December 4, 2019</li>
         <div class="col-lg-4 col-lg-8">
           <!-- <div class="icon-box"> -->
             <h5 align="justify">Test-retest repeatability of a deep learning architecture in detecting and segmenting clinically significant prostate cancer on apparent diffusion coefficient (ADC) maps</em></h5>
-            <p align="justify">A very unique study that focuses on the robustness and reproducibility of convolutional neural networks (CNN) rather than just on the diagnostic accuracy. This study consisted of MRI scans of prostate cancer patients which were taken just 15 min apart for each patient. If we train CNNs for specific tasks (in this case detection and segmentation of clinically significant prostate cancer lesions)on the first and seconds set of scans separately with exactly the same hyper-parameters, ideally they should produce the same or similar output. But do they ? Check out our article to know more. See link below   </p>
+            <p align="justify">A very unique study that focuses on the robustness and reproducibility of convolutional neural networks (CNN) rather than just on the diagnostic accuracy. This study consisted of MRI scans of prostate cancer patients which were taken just 15 min apart for each patient. If we train CNNs for specific tasks (in this case detection and segmentation of clinically significant prostate cancer lesions) on the first and second set of scans separately with exactly the same hyper-parameters, ideally they should produce the same or similar output. But do they ? Check out our article to know more. See link below   </p>
             <a style="font-size:70%"; href="">Click here to view the publication</a>
             <br>
-            <a style="font-size:70%"; href="">Click here to access the code</a>
+            <a style="font-size:70%"; href="https://github.com/amogh3892/Test-retest-repeatability-of-U-Net-in-detecting-segmenting-clinically-significant-prostate-cancer">Click here to access the code</a>
         </div>
       </div>
 
@@ -570,9 +570,32 @@ by convolutional auto-encoders (CAEs) to distinguish clinically significant pros
 insignificant prostate cancer (ciPCa) on biparametric-MRI (bpMRI). We use siNET as a feature extractor and
 extract deep features from intra- and peri- regions and train random forest classifier to distinguish csPCa and ciPCa
 on bpMRI.</p>
-            <a style="font-size:70%"; href="">Click here to view the publication</a>
+            <a style="font-size:70%"; href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11314/113140M/A-combination-of-intra--and-peri-tumoral-deep-features/10.1117/12.2550963.full?SSO=1">Click here to view the publication</a>
         </div>
       </div>
+
+
+
+
+
+      <div class="row" style="margin-bottom:30px">
+        <div class="col-lg-4 col-md-6">
+          <!-- <div class="icon-box"> -->
+          <img src="assets/img/augmentor.png" class="img-fluid" alt="">
+ 
+        </div>
+
+
+        <div class="col-lg-4 col-lg-8">
+          <!-- <div class="icon-box"> -->
+            <h5 align="justify">A 3D Augmentor module (Python)</em></h5>
+            <p align="justify">Since it was  difficult to find an existing python module to perform 3D augmentations, I created one by using SimpleITK's simple transformation functions. This is particularly important in the field of medical image analysis as most of the data we deal with is in 3D (MRI, CT etc). Multiple images and corresponding multiple segmentation masks can be simultaneously augmented using random transformations such as rotating, translation, shear, vertical and horizonal flipping. Even though 3D volumes are given as input, the trainsfromation is applied on 2D slices of the volume. Click the link below to access the code and for more details on how to use the module</p>
+            <a style="font-size:70%"; href="https://github.com/amogh3892/Augmentor3D">Click here to access the code</a>
+        </div>
+      </div>
+
+
+
 
 
 <!--         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
